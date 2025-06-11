@@ -15,7 +15,8 @@
             cnn.Parameters.AddWithValue("@Email", textBox5.Text);
             cnn.ExecuteNonQuery();
             con.Close();
-            MessageBox.Show("Record Saved Successfully", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Record Successfully Save
+", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
 
